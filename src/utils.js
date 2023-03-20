@@ -1,6 +1,8 @@
 export async function downloadImage(meme) {
   const canvas = document.createElement("canvas");
+
   canvas.width = 550;
+
   canvas.height = 700;
   const ctx = canvas.getContext("2d");
 
