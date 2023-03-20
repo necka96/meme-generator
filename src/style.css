@@ -58,7 +58,7 @@ button {
 }
 
 .meme--image {
-  max-width: 100%;
+  width: 100%;
   border-radius: 3px;
 }
 
@@ -86,4 +86,12 @@ button {
 
 .top {
   top: 0;
+}
+@media screen and (max-width: 760px) {
+  .form {
+    grid-template: 60px 60px / 1fr;
+  }
+  button {
+    padding: 0.5rem;
+  }
 }
